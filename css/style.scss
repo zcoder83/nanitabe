@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
 $pr-color: #fa743e;
+$bg01: #FFF9D3;
+$bg02: #FFC157;
+$text: #000000;
 
 .clearfix {
     content: '';
@@ -12,12 +15,19 @@ $pr-color: #fa743e;
     margin: auto;
     overflow: hidden;
 }
+.align-left {
+    float: left;
+}
+.align-right  {
+    float: left;
+}
 
 #app-page .wrap {
     width: 100%;
 }
 .header {
     background-color: $pr-color;
+    padding: 7px 0;
     .logo {
         display: inline-block;
         width: 242px;
@@ -53,6 +63,129 @@ $pr-color: #fa743e;
                 
                 font-size: 1.1rem;
             }
+        }
+    }
+}
+section {
+    width: 100%;
+}
+.section01 {
+    background: url('../img/bg01.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 2.9557%;
+    .iphone-app {
+        margin: 0 8.4729% ;
+        width: 237px;
+        height: 465px;
+        img {
+            display: inline-block;
+            width: 100%;
+        }
+    }
+    .align-right {
+        text-align: center;
+        .chara-map {
+            display: inline-block;
+            width: 173px;
+            height: 171px;
+            margin-top: 15px;
+        }
+        h2 {
+            margin: 10px 0 0; 
+            font-size: 3.2rem;
+            color: #ffffff;
+            font-weight: normal;
+            line-height: 1.8;
+        }
+        p {
+            margin: 20px 0 30px;
+            font-size: 1.6rem;
+            color: #ffffff;
+        }
+        .app-os {
+            img {
+                display: inline-block;
+                width: 215.138px;
+                height: 72px;
+                margin: 0 5px;
+            }
+        }
+    }
+}
+.section02 {
+    background-color: $bg01;
+    .align-left {
+        // position: relative;
+        width: 56.5%;
+        img {
+            display: inline-block;
+            width: 443px;
+            height: 574px;
+            // position: absolute;
+            // top: 3%;
+            // left: 0;
+        }
+    }
+    .align-right {
+        width: 43.5%;
+        color: $text;
+        h3 {
+            font-size: 2.9rem;
+            margin-top: 30%;
+            font-weight: normal;
+        }
+        .red-line {
+            height: 3px;
+            width: 60px;
+            background-color: $pr-color;
+            margin: 17px 0 45px;
+        }
+        p {
+            font-size: 1.4rem;
+            line-height: 1.7;
+        }
+    }
+}
+.section03 {
+    background-color: $bg02;
+    margin-top: -83px;
+    padding-bottom: 5%;
+    .align-left {
+        width: 50%;
+        h3 {
+            font-size: 2.9rem;
+            margin-top: 30%;
+            font-weight: normal;
+        }
+        .red-line {
+            height: 3px;
+            width: 60px;
+            background-color: $pr-color;
+            margin: 17px 0 45px;
+        }
+        p {
+            font-size: 1.4rem;
+            line-height: 1.7;
+        }
+    }
+    .align-right {
+        width: 50%;
+        img {
+            display: inline-block;
+            margin-top: 26%;
+            margin-left: 16.9458%;
+        }
+    }
+}
+.section04 {
+    background-color: $bg01;
+    .align-left {
+        img {
+            display: inline-block;
+            margin-top: -100px;
+            z-index: 1000;
         }
     }
 }

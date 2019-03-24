@@ -10,12 +10,21 @@
   overflow: hidden;
 }
 
+.align-left {
+  float: left;
+}
+
+.align-right {
+  float: left;
+}
+
 #app-page .wrap {
   width: 100%;
 }
 
 .header {
   background-color: #fa743e;
+  padding: 7px 0;
 }
 
 .header .logo {
@@ -58,5 +67,145 @@
 
 .header .social select option {
   font-size: 1.1rem;
+}
+
+section {
+  width: 100%;
+}
+
+.section01 {
+  background: url("../img/bg01.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 2.9557%;
+}
+
+.section01 .iphone-app {
+  margin: 0 8.4729%;
+  width: 237px;
+  height: 465px;
+}
+
+.section01 .iphone-app img {
+  display: inline-block;
+  width: 100%;
+}
+
+.section01 .align-right {
+  text-align: center;
+}
+
+.section01 .align-right .chara-map {
+  display: inline-block;
+  width: 173px;
+  height: 171px;
+  margin-top: 15px;
+}
+
+.section01 .align-right h2 {
+  margin: 10px 0 0;
+  font-size: 3.2rem;
+  color: #ffffff;
+  font-weight: normal;
+  line-height: 1.8;
+}
+
+.section01 .align-right p {
+  margin: 20px 0 30px;
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+
+.section01 .align-right .app-os img {
+  display: inline-block;
+  width: 215.138px;
+  height: 72px;
+  margin: 0 5px;
+}
+
+.section02 {
+  background-color: #FFF9D3;
+}
+
+.section02 .align-left {
+  width: 56.5%;
+}
+
+.section02 .align-left img {
+  display: inline-block;
+  width: 443px;
+  height: 574px;
+}
+
+.section02 .align-right {
+  width: 43.5%;
+  color: #000000;
+}
+
+.section02 .align-right h3 {
+  font-size: 2.9rem;
+  margin-top: 30%;
+  font-weight: normal;
+}
+
+.section02 .align-right .red-line {
+  height: 3px;
+  width: 60px;
+  background-color: #fa743e;
+  margin: 17px 0 45px;
+}
+
+.section02 .align-right p {
+  font-size: 1.4rem;
+  line-height: 1.7;
+}
+
+.section03 {
+  background-color: #FFC157;
+  margin-top: -83px;
+  padding-bottom: 5%;
+}
+
+.section03 .align-left {
+  width: 50%;
+}
+
+.section03 .align-left h3 {
+  font-size: 2.9rem;
+  margin-top: 30%;
+  font-weight: normal;
+}
+
+.section03 .align-left .red-line {
+  height: 3px;
+  width: 60px;
+  background-color: #fa743e;
+  margin: 17px 0 45px;
+}
+
+.section03 .align-left p {
+  font-size: 1.4rem;
+  line-height: 1.7;
+}
+
+.section03 .align-right {
+  width: 50%;
+}
+
+.section03 .align-right img {
+  display: inline-block;
+  margin-top: 26%;
+  margin-left: 16.9458%;
+}
+
+.section04 {
+  background-color: #FFF9D3;
+}
+
+.section04 .align-left img {
+  display: inline-block;
+  margin-top: -100px;
+  z-index: 1000;
 }
 /*# sourceMappingURL=style.css.map */
