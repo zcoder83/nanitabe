@@ -1,0 +1,62 @@
+.clearfix {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.align-center {
+  width: 67.6667%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#app-page .wrap {
+  width: 100%;
+}
+
+.header {
+  background-color: #fa743e;
+}
+
+.header .logo {
+  display: inline-block;
+  width: 242px;
+  height: 56.87px;
+  float: left;
+}
+
+.header .logo img {
+  display: inline-block;
+  width: 100%;
+}
+
+.header .social {
+  float: right;
+  height: 56.87px;
+  line-height: 56.87px;
+}
+
+.header .social i {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  line-height: 30px;
+  font-size: 1.5rem;
+  vertical-align: middle;
+  margin-right: 7px;
+}
+
+.header .social select {
+  width: 190px;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.header .social select option {
+  font-size: 1.1rem;
+}
+/*# sourceMappingURL=style.css.map */
