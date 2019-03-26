@@ -130,12 +130,13 @@ section {
 
 .section02 .align-left {
   width: 56.5%;
+  margin-top: 15px;
 }
 
 .section02 .align-left img {
   display: inline-block;
-  width: 443px;
-  height: 574px;
+  width: 77.24835%;
+  height: auto;
 }
 
 .section02 .align-right {
@@ -195,17 +196,202 @@ section {
 
 .section03 .align-right img {
   display: inline-block;
+  width: 79.2118%;
   margin-top: 26%;
   margin-left: 16.9458%;
 }
 
-.section04 {
-  background-color: #FFF9D3;
+.section03 .section04-img {
+  display: inline-block;
+  width: 52.1182%;
+  height: auto;
 }
 
-.section04 .align-left img {
-  display: inline-block;
-  margin-top: -100px;
-  z-index: 1000;
+.section04 {
+  background-color: #FFF9D3;
+  margin-top: -750px;
 }
+
+.section04 .align-left {
+  position: relative;
+  width: 56.5%;
+}
+
+.section04 .align-right {
+  width: 43.5%;
+  float: right;
+  padding-top: 5%;
+  padding-bottom: 13%;
+}
+
+.section04 .align-right h3 {
+  font-size: 2.9rem;
+  margin-top: 30%;
+  font-weight: normal;
+}
+
+.section04 .align-right .red-line {
+  height: 3px;
+  width: 60px;
+  background-color: #fa743e;
+  margin: 17px 0 45px;
+}
+
+.section04 .align-right p {
+  font-size: 1.4rem;
+  line-height: 1.7;
+}
+
+.section05 {
+  background-color: #FFC157;
+}
+
+.section05 .align-left {
+  width: 45%;
+  margin-right: 5%;
+}
+
+.section05 .align-left h3 {
+  font-size: 2.9rem;
+  margin-top: 30%;
+  font-weight: normal;
+}
+
+.section05 .align-left .red-line {
+  height: 3px;
+  width: 60px;
+  background-color: #fa743e;
+  margin: 17px 0 45px;
+}
+
+.section05 .align-left p {
+  font-size: 1.4rem;
+  line-height: 1.7;
+}
+
+.section05 .align-right {
+  width: 50%;
+  padding: 3% 0 6%;
+}
+
+.section05 .align-right img {
+  display: inline-block;
+  width: 97.73399%;
+}
+
+.section06 {
+  background-color: #FFF9D3;
+  position: relative;
+  text-align: center;
+}
+
+.section06 .chara-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 31%;
+}
+
+.section06 .content h4 {
+  font-size: 3.245rem;
+  padding: 8.5% 0 2.5%;
+  font-weight: 500;
+}
+
+.section06 .content .app-os img {
+  display: inline-block;
+  width: 215.138px;
+  height: 72px;
+  margin: 0 5px;
+}
+
+.section06 .content .app-desc {
+  width: 42.5%;
+  font-size: 1.4rem;
+  margin: 5% auto 4%;
+  line-height: 1.6;
+}
+
+.section06 .content .btn-about {
+  color: #ffffff;
+  padding: 17px 30px 17px 100px;
+  background-color: #3AB6B6;
+  border-radius: 5px;
+  font-size: 2.6rem;
+}
+
+.section06 .content .btn-about img {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.section06 .content .social {
+  margin: 7% auto 2%;
+}
+
+.section06 .content .social i {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  line-height: 30px;
+  font-size: 1.5rem;
+  vertical-align: middle;
+  margin-right: 7px;
+}
+
+.section06 .content .navi-item {
+  font-size: 0;
+  padding-bottom: 3%;
+}
+
+.section06 .content .navi-item li {
+  display: inline-block;
+  border-right: 1px solid #000;
+}
+
+.section06 .content .navi-item li a {
+  color: #000;
+  font-size: 1.4rem;
+  padding: 0 15px;
+}
+
+.section06 .content .navi-item li:nth-child(3) {
+  border-right: none;
+  padding-right: 0;
+}
+
+.section06 .content .navi-item li:nth-child(1) a {
+  padding-left: 0;
+}
+
+.section06 .content .navi-item li:nth-child(3) a {
+  padding-right: 0;
+}
+
+.footer {
+  background-color: #E65231;
+  text-align: center;
+  height: 50px;
+}
+
+.footer p {
+  color: #ffffff;
+  font-size: 1.4rem;
+  line-height: 50px;
+}
+
+img {
+  z-index: 10000;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+/*--Responsive--*/
 /*# sourceMappingURL=style.css.map */
