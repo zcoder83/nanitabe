@@ -42,18 +42,29 @@ $text: #000000;
         float: right;
         height: 56.87px;
         line-height: 56.87px;
-        i {
+        a {
             display: inline-block;
             width: 30px;
             height: 30px;
             border-radius: 50%;
-            color: #fff;
-            background-color: #000;
-            text-align: center;
-            line-height: 30px;
-            font-size: 1.5rem;
-            vertical-align: middle;
             margin-right: 7px;
+            line-height: 30px;
+            i {
+                display: inline-block;
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                color: #fff;
+                background-color: rgba(0, 0, 0, 1);
+                text-align: center;
+                line-height: 30px;
+                font-size: 1.5rem;
+                vertical-align: middle;
+                
+            }
+        }
+        a:hover i {
+            background-color: rgba(0, 0, 0, 0.6);
         }
         select {
             width: 190px;
@@ -74,18 +85,21 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 2.9557%;
+    padding: 2.9557% 0;
+    box-sizing: border-box;
     .iphone-app {
-        margin: 0 8.4729% ;
-        width: 237px;
-        height: 465px;
+        margin-left: 11.5%;
+        width: 30%;
         img {
             display: inline-block;
-            width: 100%;
+            width: 77%;
+            height: auto;
         }
     }
     .align-right {
         text-align: center;
+        width: 50%;
+        margin-right: 8.5%;
         .chara-map {
             display: inline-block;
             width: 173px;
@@ -107,7 +121,7 @@ section {
         .app-os {
             img {
                 display: inline-block;
-                width: 215.138px;
+                width: 41.8564%;
                 height: 72px;
                 margin: 0 5px;
             }
@@ -289,18 +303,26 @@ section {
         }
         .social {
             margin: 7% auto 2%;
-            i {
+            a {
                 display: inline-block;
                 width: 30px;
                 height: 30px;
                 border-radius: 50%;
-                color: #fff;
-                background-color: #000;
-                text-align: center;
-                line-height: 30px;
-                font-size: 1.5rem;
-                vertical-align: middle;
                 margin-right: 7px;
+                line-height: 30px;
+                i {
+                    display: inline-block;
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    color: #fff;
+                    background-color: #000;
+                    text-align: center;
+                    line-height: 30px;
+                    font-size: 1.5rem;
+                    vertical-align: middle;
+                    margin-right: 7px;
+                }
             }
         }
         .navi-item {
@@ -340,12 +362,7 @@ section {
         line-height: 50px;
     }
 }
-img {
-    z-index: 10000;
-}
-a:hover {
-    opacity: 0.6;
-}
+
 /*--Responsive--*/
 
 @media screen and (max-width: 1199px){

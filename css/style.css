@@ -45,18 +45,30 @@
   line-height: 56.87px;
 }
 
-.header .social i {
+.header .social a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 7px;
+  line-height: 30px;
+}
+
+.header .social a i {
   display: inline-block;
   width: 30px;
   height: 30px;
   border-radius: 50%;
   color: #fff;
-  background-color: #000;
+  background-color: black;
   text-align: center;
   line-height: 30px;
   font-size: 1.5rem;
   vertical-align: middle;
-  margin-right: 7px;
+}
+
+.header .social a:hover i {
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .header .social select {
@@ -78,22 +90,26 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 2.9557%;
+  padding: 2.9557% 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .section01 .iphone-app {
-  margin: 0 8.4729%;
-  width: 237px;
-  height: 465px;
+  margin-left: 11.5%;
+  width: 30%;
 }
 
 .section01 .iphone-app img {
   display: inline-block;
-  width: 100%;
+  width: 77%;
+  height: auto;
 }
 
 .section01 .align-right {
   text-align: center;
+  width: 50%;
+  margin-right: 8.5%;
 }
 
 .section01 .align-right .chara-map {
@@ -119,7 +135,7 @@ section {
 
 .section01 .align-right .app-os img {
   display: inline-block;
-  width: 215.138px;
+  width: 41.8564%;
   height: 72px;
   margin: 0 5px;
 }
@@ -330,7 +346,16 @@ section {
   margin: 7% auto 2%;
 }
 
-.section06 .content .social i {
+.section06 .content .social a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 7px;
+  line-height: 30px;
+}
+
+.section06 .content .social a i {
   display: inline-block;
   width: 30px;
   height: 30px;
@@ -383,14 +408,6 @@ section {
   color: #ffffff;
   font-size: 1.4rem;
   line-height: 50px;
-}
-
-img {
-  z-index: 10000;
-}
-
-a:hover {
-  opacity: 0.6;
 }
 
 /*--Responsive--*/
