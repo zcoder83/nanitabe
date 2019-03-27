@@ -123,8 +123,9 @@ section {
   margin: 10px 0 0;
   font-size: 3.2rem;
   color: #ffffff;
-  font-weight: normal;
+  font-weight: 600;
   line-height: 1.8;
+  font-family: 'HiraKakuPro', 'Noto Sans JP', 'HiraKaku Pro', sans-serif;
 }
 
 .section01 .align-right p {
@@ -163,7 +164,6 @@ section {
 .section02 .align-right h3 {
   font-size: 2.9rem;
   margin-top: 30%;
-  font-weight: normal;
 }
 
 .section02 .align-right .red-line {
@@ -191,7 +191,6 @@ section {
 .section03 .align-left h3 {
   font-size: 2.9rem;
   margin-top: 30%;
-  font-weight: normal;
 }
 
 .section03 .align-left .red-line {
@@ -243,7 +242,6 @@ section {
 .section04 .align-right h3 {
   font-size: 2.9rem;
   margin-top: 30%;
-  font-weight: normal;
 }
 
 .section04 .align-right .red-line {
@@ -270,7 +268,6 @@ section {
 .section05 .align-left h3 {
   font-size: 2.9rem;
   margin-top: 30%;
-  font-weight: normal;
 }
 
 .section05 .align-left .red-line {
@@ -312,7 +309,6 @@ section {
 .section06 .content h4 {
   font-size: 3.245rem;
   padding: 8.5% 0 2.5%;
-  font-weight: 500;
 }
 
 .section06 .content .app-os img {
