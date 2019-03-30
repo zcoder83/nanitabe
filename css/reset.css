@@ -88,7 +88,7 @@ html {
     font-size: 62.5%;
   }
   body {
-    font-family: 'Noto Sans JP', 'HiraKaku Pro', sans-serif;
+    font-family: 'HiraKaku Pro','Noto Sans JP', sans-serif;
   }
   *, *::before, *::after {
     box-sizing: border-box;
